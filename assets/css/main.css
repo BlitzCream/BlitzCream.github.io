@@ -47,7 +47,7 @@ body {
 }
 
 .active {
-	color: #8c00ff !important;
+	color: #b700ff !important;
 	font-weight: 600 !important;
 }
 .active:hover, .active:focus, .active:active {
@@ -62,7 +62,7 @@ a.nav-link:not(a.active):hover, a.nav-link:not(a.active):focus, a.nav-link:not(a
 }
 
 header.bg-dark {
-	background-color: #060011 !important;
+	background-color: #111 !important;
 }
 header {
 	padding-top: 6rem !important;
@@ -70,13 +70,13 @@ header {
 }
 
 #projects {
-	background-color: #020205 !important;
+	background-color: #32005c !important;
 }
 
 .card {
-	background-color: #000 !important;
-	border: 1px solid #181818 !important;
-	box-shadow: 0 0 0.75rem 0.65rem #000 !important;
+	background-color: #111 !important;
+	border: 1px solid #1f1f1f !important;
+	box-shadow: 0 0 0.75rem 0.65rem #111 !important;
 	color: #fff !important;
 }
 
