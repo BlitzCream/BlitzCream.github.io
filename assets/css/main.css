@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Inter', 'Roboto', sans-serif !important;
+}
+
+.bcoss-navbar {
+    background-color: #000;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler:hover,
+#bcoss-navbar-search {
+	outline: 0 !important;
+	border: 0 !important;
+ 	box-shadow: none !important;
+}
+
+#bcoss-navbar-search-form {
+	padding-bottom: 0 !important;
+}
+
+#bcoss-navbar-search-box {
+	outline: 0 !important;
+	border: 0 !important;
+ 	box-shadow: none !important;
+	background-color: #000 !important;
+}
+#bcoss-navbar-search-box::placeholder {
+	color: #fff !important;
+	font-weight: 100 !important;
+}
+
+#bcoss-navbar-search {
+	background-color: #000 !important;
+	border-bottom: 0.15rem solid transparent!important;
+	border-image: linear-gradient(0.25turn, rgb(0, 217, 255), rgb(140, 0, 255), rgb(255, 0, 234)) !important;
+	border-image-slice: 1 !important;
+}
+
+.active {
+	color: #8c00ff !important;
+	font-weight: 600 !important;
+}
+.active:hover, .active:focus, .active:active {
+	font-weight: 800 !important;
+}
+
+a.nav-link:not(a.active) {
+	font-weight: 200 !important;
+}
+a.nav-link:not(a.active):hover, a.nav-link:not(a.active):focus, a.nav-link:not(a.active):active {
+	font-weight: 300 !important;
+}
+
+header.bg-dark {
+	background-color: #060011 !important;
+}
+header {
+	padding-top: 6rem !important;
+	padding-bottom: 3.5rem !important;
+}
+
+#projects {
+	background-color: #020205 !important;
+}
+
+.card {
+	background-color: #000 !important;
+	border: 1px solid #181818 !important;
+	box-shadow: 0 0 0.75rem 0.65rem #000 !important;
+	color: #fff !important;
+}
+
+.card-link {
+	color: #fff !important;
+}
+.card-link:hover {
+	background-color: #080808 !important;
+	font-weight: 600 !important;
+	color: #8c00ff !important;
+}
+.card-link:focus {
+	background-color: #181818 !important;
+	color: #8c00ff !important;
+}
+.card-link:active {
+	background-color: #181818 !important;
+	color: #8c00ff !important;
+}
+
+footer.bg-dark {
+	background-color: #060011 !important;
+	padding: 0.75rem !important;
+	font-size: 0.85rem !important;
+}
